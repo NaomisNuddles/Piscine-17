@@ -14,11 +14,7 @@
 
 void	ft_print_reverse_alphabet(void)
 {
-	char	c;
-
-	c = 123;
-	while (c-- >= 98)
-		write(1, &c, 1);
+	write(1, "zyxwvutsrqponmlkjihgfedcba", 26);
 }
 /*int	main(void)
 {

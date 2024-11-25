@@ -14,11 +14,7 @@
 
 void	ft_print_numbers(void)
 {
-	char	c;
-
-	c = 47;
-	while (c++ <= 56)
-		write(1, &c, 1);
+	write(1, "0123456789", 10);
 }
 /*int	main(void)
 {

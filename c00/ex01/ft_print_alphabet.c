@@ -14,11 +14,7 @@
 
 void	ft_print_alphabet(void)
 {
-	char	c;
-
-	c = 96;
-	while (c++ <= 121)
-		write(1, &c, 1);
+	write(1, "abcdefghijklmnopqrstuvwxyz", 26);
 }
 /*int	main(void)
 {
